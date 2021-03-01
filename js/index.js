@@ -12,7 +12,7 @@ $(function(){
 	    origin: 'right',
 	    distance: '0',
 	    easing: 'ease-in-out',
-	    duration: 200,
+	    duration: 000,
 	  });
 
   } else {
@@ -21,14 +21,14 @@ $(function(){
 	    origin: 'left',
 	    distance: '0',
 		  easing: 'ease-in-out',
-	    duration: 200,
+	    duration: 000,
 	  });
 
 	  sr.reveal('.js--fadeInRight', {
 	    origin: 'right',
 	    distance: '0',
 	    easing: 'ease-in-out',
-	    duration: 200,
+	    duration: 000,
 	  });
 
   }
