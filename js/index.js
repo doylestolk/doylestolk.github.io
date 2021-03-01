@@ -4,15 +4,17 @@ $(function(){
 
   if ($(window).width() < 768) {
 
-  	if ($('.timeline-content').hasClass('js--fadeInLeft')) {
-  		$('.timeline-content').removeClass('js--fadeInLeft').addClass('js--fadeInRight');
+  	if ($('.timeline-content').hasClass('js--fadeInRight')) {
+  		$('.timeline-content').removeClass('js--fadeInLeft');
+		$('.timeline-content').removeClass('js--fadeInRight');
   	}
+
 
   	sr.reveal('.js--fadeInRight', {
 	    origin: 'right',
-	    distance: '0',
+	    distance: '300',
 	    easing: 'ease-in-out',
-	    duration: 000,
+	    duration: 400,
 	  });
 
   } else {
@@ -21,14 +23,14 @@ $(function(){
 	    origin: 'left',
 	    distance: '0',
 		  easing: 'ease-in-out',
-	    duration: 000,
+	    duration: 400,
 	  });
 
 	  sr.reveal('.js--fadeInRight', {
 	    origin: 'right',
 	    distance: '0',
 	    easing: 'ease-in-out',
-	    duration: 000,
+	    duration: 400,
 	  });
 
   }
